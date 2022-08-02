@@ -8,3 +8,5 @@ Fake news title generator (For the funny)
 2. Run `npm install`
 
 3. Run `node .`
+
+4. Open localhost:3000
