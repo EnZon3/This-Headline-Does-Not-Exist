@@ -94,3 +94,8 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+}
