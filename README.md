@@ -9,4 +9,4 @@ Fake news title generator (For the funny)
 
 3. Run `node .`
 
-4. Open localhost:3000
+4. Open http://localhost:3000
