@@ -1,0 +1,96 @@
+/* make background a gradient */
+.gradient {
+    z-index: 1;
+    background: linear-gradient(to left top,#8c60c3, #5375d5);
+	background-size: 400% 400%;
+	width: 100%;
+	height: 100vh;
+	animation: animate 6s ease infinite;
+}
+
+.b-gradient {
+    z-index: 1;
+    background: linear-gradient(to left top,#8c60c3, #5375d5);
+	animation: animate 6s ease infinite;
+}
+
+body {
+    z-index: 1;
+    background: linear-gradient(to left top,#8c60c3, #5375d5);
+	background-size: 400% 400%;
+	width: 100%;
+	height: 100vh;
+	animation: animate 6s ease infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* make the .centered class centered horizontally and vertically */
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar.navbar-inverse.navbar-header.navbar-brand {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+  
+.navbar-header {
+    text-align: center;
+}
+
+@font-face {
+    font-family: Monoid;
+    src: url('monoid.normal.ttf');
+}
+  
+body {
+    font-family: Monoid;
+    color: black;
+}
+
+.float-l {
+	float: left
+}
+
+.float-r {
+	float: right
+}
+
+.green {
+	color: green
+}
+
+.red {
+	color: red
+}
+
+.yellow {
+	color: yellow
+}
+
+.replit:hover {
+	animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
